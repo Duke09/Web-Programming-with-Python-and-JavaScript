@@ -4,24 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello | Lecturee1</title>
+    <style>
+        body {
+            font-size: larger;
+            font-family: sans-serif;
+        }
+        h1, h5{
+            letter-spacing: 4px;
+            color: lightsteelblue;
+            text-align: center;
+        }
+        h3{
+            font-size: 30px;
+        }
+        ul{
+            list-style: none;
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: burlywood;
+        }
+        li::before{
+            content: "Click Here:";
+            color: lightslategray;
+        }
+        a{
+            text-decoration: none;
+            font-size: large;
+            color: cornflowerblue;
+        }
+        p::selection{
+            color: floralwhite;
+            background-color: darkslateblue;
+        }
+    </style>
 </head>
 <body>
     <div>
-        <h3>Hello, World! Nice to meet you.</h3>
-        <p>Now let us try to jump around this page only, without us going to a new page</p>
+        <h1>Hello, World! Nice to meet you.</h1>
+        <h5>Now let us try to jump around this page only, without us going to a new page!</h5>
         <br><hr><br>
         <div>
-            <h4>
+            <h3>
                 List of contents
-            </h4>
+            </h3>
             <ul>
-                <li><a href="#section1">Section 1</a></li>
-                <li><a href="#section2">Section 2</a></li>
-                <li><a href="#section3">Section 3</a></li>
+                <li><button><a href="#section1">Section 1</a></button></li>
+                <li><button><a href="#section2">Section 2</a></button></li>
+                <li><button><a href="#section3">Section 3</a></button></li>
             </ul>
         </div>
         <br>
-        <hr>
         <br>
         <div>
             <div id="section1">
@@ -50,6 +90,7 @@
                     consequuntur cum voluptate maiores asperiores soluta. Nisi cumque minima ea voluptatem harum mollitia tenetur tempora.
                 </p>
             </div>
+            <br>
             <div>
                 <iframe width="1903" height="810" src="https://www.youtube.com/embed/XQs5KcUj-Do" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
