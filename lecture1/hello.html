@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello | Lecturee1</title>
+    <style>
+        body {
+            font-size: larger;
+            font-family: sans-serif;
+        }
+        h1, h5{
+            letter-spacing: 4px;
+            color: lightsteelblue;
+            text-align: center;
+        }
+        h3{
+            font-size: 30px;
+        }
+        ul{
+            list-style: none;
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: burlywood;
+        }
+        li::before{
+            content: "Click Here:";
+            color: lightslategray;
+        }
+        a{
+            text-decoration: none;
+            font-size: large;
+            color: cornflowerblue;
+        }
+        p::selection{
+            color: floralwhite;
+            background-color: darkslateblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hello, World! Nice to meet you.</h1>
+        <h5>Now let us try to jump around this page only, without us going to a new page!</h5>
+        <br><hr><br>
+        <div>
+            <h3>
+                List of contents
+            </h3>
+            <ul>
+                <li><button><a href="#section1">Section 1</a></button></li>
+                <li><button><a href="#section2">Section 2</a></button></li>
+                <li><button><a href="#section3">Section 3</a></button></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div>
+            <div id="section1">
+                <h2>Section 1</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod provident numquam perferendis
+                    fugiat iusto aspernatur atque, quos molestiae explicabo, inventore quisquam neque cumque unde eius
+                    consequuntur cum voluptate maiores asperiores soluta. Nisi cumque minima ea voluptatem harum mollitia tenetur tempora.
+                </p>
+            </div>
+            <br>
+            <div id="section2">
+                <h2>Section 2</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod provident numquam perferendis
+                    fugiat iusto aspernatur atque, quos molestiae explicabo, inventore quisquam neque cumque unde eius
+                    consequuntur cum voluptate maiores asperiores soluta. Nisi cumque minima ea voluptatem harum mollitia tenetur tempora.
+                </p>
+            </div>
+            <br>
+            <div id="section3">
+                <h2>Section 3</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod provident numquam perferendis
+                    fugiat iusto aspernatur atque, quos molestiae explicabo, inventore quisquam neque cumque unde eius
+                    consequuntur cum voluptate maiores asperiores soluta. Nisi cumque minima ea voluptatem harum mollitia tenetur tempora.
+                </p>
+            </div>
+            <br>
+            <div>
+                <iframe width="1903" height="810" src="https://www.youtube.com/embed/XQs5KcUj-Do" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div>
+            Now lets try to view a page in a responsive way!
+            <a href="responsive.html">Click me</a>
+        </div>
+    </div>
+</body>
+</html>
